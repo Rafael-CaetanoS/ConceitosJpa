@@ -7,9 +7,11 @@ import org.infra.DAO;
 
 public class OneToMany {
     public static void main(String[] args) {
-        DAO<Object> dao = new DAO<>();
 
-     /*   Produto produto = new Produto(1200.00, "MotoG");
+
+     /*
+       DAO<Object> dao = new DAO<>();
+      Produto produto = new Produto(1200.00, "MotoG");
         Pedido pedido = new Pedido();
         ItemPedido item = new ItemPedido(5,pedido, produto);
 
@@ -19,7 +21,8 @@ public class OneToMany {
                 .incluir(item)
                 .fecharT()
                 .fechar();
-    */
+                */
+
 
         DAO<Pedido> daoPedido = new DAO<>(Pedido.class);
         Pedido pedido = daoPedido.obterPorID(1L);
