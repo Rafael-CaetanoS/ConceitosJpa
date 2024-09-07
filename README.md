@@ -1,2 +1,2 @@
-# JavaJpaSpring
--Estudando Java Jpa e Spring boot por meio de um curso
+# JPA
+-Estudando os conceitos de JPA para utilizar mais tarde no framework Spring boot
